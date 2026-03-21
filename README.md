@@ -10,6 +10,8 @@ Curated reading lists for the primary texts of Eastern and Western philosophical
 
 - **[East Asian Philosophy Canon](east_asian_philosophy_canon.md)** — Chinese and Japanese philosophical traditions. Covers Confucianism, Daoism, Legalism, Chan/Zen Buddhism, Neo-Confucianism, Kokugaku, and the Kyoto School, with links to ctext.org, BDK, terebess.hu, and Archive.org.
 
+- **[Western Philosophy Through Literature](western_philosophy_through_literature.md)** — Philosophy embedded in literary form. Covers Homer, Greek tragedy, Dante, Shakespeare, and the modern novel through Dostoevsky, Kafka, Camus, and others — works that do philosophy rather than merely reference it.
+
 ### Timelines
 
 - **[Western Philosophy Timeline](western_philosophy_canon_timeline.html)** — Visual timeline from the pre-Socratics to Foucault, color-coded by tradition.
@@ -27,4 +29,4 @@ Each reading list includes:
 
 ## Scope
 
-The Western canon covers philosophy and political theory proper. The East Asian canon covers the Chinese and Japanese traditions. See the notes in each file for what's deliberately excluded and why.
+The Western canon covers philosophy and political theory proper. The East Asian canon covers the Chinese and Japanese traditions. The literature list covers works that do philosophy in literary form — the test for inclusion is whether the work constructs or embodies a philosophical position, not merely references one. See the notes in each file for what's deliberately excluded and why.
