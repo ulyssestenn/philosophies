@@ -1,0 +1,396 @@
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.tl-wrap{font-family:var(--font-sans);padding:1rem 0;position:relative}
+.tl-header{font-size:16px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.tl-sub{font-size:12px;color:var(--color-text-secondary);margin-bottom:20px}
+.tl-legend{display:flex;gap:12px;margin-bottom:20px;flex-wrap:wrap}
+.tl-legend-item{display:flex;align-items:center;gap:5px;font-size:11px;color:var(--color-text-secondary)}
+.tl-legend-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.tl-era{width:100%;padding:6px 0 2px;font-size:11px;font-weight:500;color:var(--color-text-tertiary);text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--color-border-tertiary);margin:14px 0 6px}
+.tl-row{display:flex;align-items:flex-start;gap:0;margin-bottom:2px;min-height:36px}
+.tl-date{width:96px;flex-shrink:0;font-size:11px;color:var(--color-text-tertiary);text-align:right;padding-right:12px;padding-top:6px;line-height:1.3}
+.tl-track{flex:1;display:flex;gap:5px;flex-wrap:wrap;padding:2px 0}
+.tl-chip{display:inline-flex;align-items:center;gap:5px;padding:4px 9px;border-radius:var(--border-radius-md);font-size:12px;line-height:1.4;cursor:default;transition:opacity .15s}
+.tl-chip:hover{opacity:.85}
+.tl-chip .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.tl-chip .name{font-weight:500}
+.tl-chip .work{font-weight:400;opacity:.75;font-size:11px}
+.gr{background:#E6F1FB;color:#0C447C}
+.gr .dot{background:#378ADD}
+.rl{background:#EEEDFE;color:#3C3489}
+.rl .dot{background:#534AB7}
+.md{background:#FAEEDA;color:#633806}
+.md .dot{background:#BA7517}
+.em{background:#E1F5EE;color:#085041}
+.em .dot{background:#1D9E75}
+.c19{background:#FAECE7;color:#712B13}
+.c19 .dot{background:#D85A30}
+.c20{background:#FBEAF0;color:#72243E}
+.c20 .dot{background:#D4537E}
+@media(prefers-color-scheme:dark){
+.gr{background:#0C447C;color:#B5D4F4}.rl{background:#3C3489;color:#CECBF6}
+.md{background:#633806;color:#FAC775}.em{background:#085041;color:#9FE1CB}
+.c19{background:#712B13;color:#F5C4B3}.c20{background:#72243E;color:#F4C0D1}
+}
+.tl-note{font-size:11px;color:var(--color-text-tertiary);margin-top:16px;line-height:1.5}
+</style>
+<div class="tl-wrap">
+<div class="tl-header">Western philosophy and political theory timeline</div>
+<div class="tl-sub">From the pre-Socratics to the 20th century</div>
+<div class="tl-legend">
+<div class="tl-legend-item"><div class="tl-legend-dot" style="background:#378ADD"></div>Ancient Greek &amp; Roman</div>
+<div class="tl-legend-item"><div class="tl-legend-dot" style="background:#BA7517"></div>Medieval (Christian / Islamic / Jewish)</div>
+<div class="tl-legend-item"><div class="tl-legend-dot" style="background:#534AB7"></div>Renaissance &amp; political theory</div>
+<div class="tl-legend-item"><div class="tl-legend-dot" style="background:#1D9E75"></div>Early modern epistemology</div>
+<div class="tl-legend-item"><div class="tl-legend-dot" style="background:#D85A30"></div>19th century</div>
+<div class="tl-legend-item"><div class="tl-legend-dot" style="background:#D4537E"></div>20th century</div>
+</div>
+
+<div class="tl-era">Pre-Socratics (6th–5th c. BCE)</div>
+
+<div class="tl-row">
+<div class="tl-date">c. 535–475 BCE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Heraclitus</span><span class="work">— fragments</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 515–450 BCE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Parmenides</span><span class="work">— On Nature (fragments)</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 460–370 BCE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Democritus</span><span class="work">— fragments</span></div>
+</div></div>
+
+<div class="tl-era">Classical Athens (5th–4th c. BCE)</div>
+
+<div class="tl-row">
+<div class="tl-date">c. 460–400 BCE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Thucydides</span><span class="work">— Peloponnesian War</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">428–348 BCE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Plato</span><span class="work">— Republic, Apology, Phaedo, Symposium, etc.</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">384–322 BCE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Aristotle</span><span class="work">— Ethics, Politics, Metaphysics, etc.</span></div>
+</div></div>
+
+<div class="tl-era">Hellenistic &amp; Roman (3rd c. BCE–2nd c. CE)</div>
+
+<div class="tl-row">
+<div class="tl-date">341–270 BCE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Epicurus</span><span class="work">— Letter to Menoeceus, Principal Doctrines</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">106–43 BCE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Cicero</span><span class="work">— On the Republic, On Duties</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 99–55 BCE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Lucretius</span><span class="work">— On the Nature of Things</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">4 BCE–65 CE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Seneca</span><span class="work">— Letters, On the Shortness of Life</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 50–135 CE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Epictetus</span><span class="work">— Discourses, Enchiridion</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">121–180 CE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Marcus Aurelius</span><span class="work">— Meditations</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 160–210 CE</div>
+<div class="tl-track">
+<div class="tl-chip gr"><div class="dot"></div><span class="name">Sextus Empiricus</span><span class="work">— Outlines of Pyrrhonism</span></div>
+</div></div>
+
+<div class="tl-era">Late antiquity &amp; early medieval (4th–6th c.)</div>
+
+<div class="tl-row">
+<div class="tl-date">354–430</div>
+<div class="tl-track">
+<div class="tl-chip md"><div class="dot"></div><span class="name">Augustine</span><span class="work">— Confessions, City of God</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 477–524</div>
+<div class="tl-track">
+<div class="tl-chip md"><div class="dot"></div><span class="name">Boethius</span><span class="work">— Consolation of Philosophy</span></div>
+</div></div>
+
+<div class="tl-era">Islamic golden age &amp; high medieval (9th–13th c.)</div>
+
+<div class="tl-row">
+<div class="tl-date">c. 872–950</div>
+<div class="tl-track">
+<div class="tl-chip md"><div class="dot"></div><span class="name">Al-Farabi</span><span class="work">— Political Regime, Attainment of Happiness</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 980–1037</div>
+<div class="tl-track">
+<div class="tl-chip md"><div class="dot"></div><span class="name">Avicenna (Ibn Sina)</span><span class="work">— The Healing</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1126–1198</div>
+<div class="tl-track">
+<div class="tl-chip md"><div class="dot"></div><span class="name">Averroes (Ibn Rushd)</span><span class="work">— Incoherence of the Incoherence</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1138–1204</div>
+<div class="tl-track">
+<div class="tl-chip md"><div class="dot"></div><span class="name">Maimonides</span><span class="work">— Guide for the Perplexed</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1225–1274</div>
+<div class="tl-track">
+<div class="tl-chip md"><div class="dot"></div><span class="name">Thomas Aquinas</span><span class="work">— Summa Theologica</span></div>
+</div></div>
+
+<div class="tl-era">Renaissance &amp; early modern political theory (15th–18th c.)</div>
+
+<div class="tl-row">
+<div class="tl-date">1469–1527</div>
+<div class="tl-track">
+<div class="tl-chip rl"><div class="dot"></div><span class="name">Machiavelli</span><span class="work">— The Prince, Discourses</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1588–1679</div>
+<div class="tl-track">
+<div class="tl-chip rl"><div class="dot"></div><span class="name">Hobbes</span><span class="work">— Leviathan</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1623–1662</div>
+<div class="tl-track">
+<div class="tl-chip em"><div class="dot"></div><span class="name">Pascal</span><span class="work">— Pensées</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1632–1704</div>
+<div class="tl-track">
+<div class="tl-chip rl"><div class="dot"></div><span class="name">Locke</span><span class="work">— Two Treatises, Essay</span></div>
+</div></div>
+
+<div class="tl-era">Rationalism &amp; empiricism (17th–18th c.)</div>
+
+<div class="tl-row">
+<div class="tl-date">1596–1650</div>
+<div class="tl-track">
+<div class="tl-chip em"><div class="dot"></div><span class="name">Descartes</span><span class="work">— Meditations, Discourse on Method</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1632–1677</div>
+<div class="tl-track">
+<div class="tl-chip em"><div class="dot"></div><span class="name">Spinoza</span><span class="work">— Ethics</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1646–1716</div>
+<div class="tl-track">
+<div class="tl-chip em"><div class="dot"></div><span class="name">Leibniz</span><span class="work">— Monadology, Discourse on Metaphysics</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1689–1755</div>
+<div class="tl-track">
+<div class="tl-chip rl"><div class="dot"></div><span class="name">Montesquieu</span><span class="work">— The Spirit of the Laws</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1711–1776</div>
+<div class="tl-track">
+<div class="tl-chip em"><div class="dot"></div><span class="name">Hume</span><span class="work">— Treatise, Enquiry</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1712–1778</div>
+<div class="tl-track">
+<div class="tl-chip rl"><div class="dot"></div><span class="name">Rousseau</span><span class="work">— Social Contract, Discourse on Inequality</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1724–1804</div>
+<div class="tl-track">
+<div class="tl-chip em"><div class="dot"></div><span class="name">Kant</span><span class="work">— Critiques, Groundwork</span></div>
+</div></div>
+
+<div class="tl-era">American founding (1770s–1780s)</div>
+
+<div class="tl-row">
+<div class="tl-date">1737–1809</div>
+<div class="tl-track">
+<div class="tl-chip rl"><div class="dot"></div><span class="name">Paine</span><span class="work">— Common Sense, Rights of Man</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1743–1826</div>
+<div class="tl-track">
+<div class="tl-chip rl"><div class="dot"></div><span class="name">Jefferson</span><span class="work">— Declaration, Notes on Virginia</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1787–1788</div>
+<div class="tl-track">
+<div class="tl-chip rl"><div class="dot"></div><span class="name">Hamilton, Madison, Jay</span><span class="work">— Federalist Papers</span></div>
+</div></div>
+
+<div class="tl-era">19th century — idealism, existentialism, political economy</div>
+
+<div class="tl-row">
+<div class="tl-date">1770–1831</div>
+<div class="tl-track">
+<div class="tl-chip c19"><div class="dot"></div><span class="name">Hegel</span><span class="work">— Phenomenology of Spirit, Philosophy of Right</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1788–1860</div>
+<div class="tl-track">
+<div class="tl-chip c19"><div class="dot"></div><span class="name">Schopenhauer</span><span class="work">— The World as Will and Representation</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1805–1859</div>
+<div class="tl-track">
+<div class="tl-chip c19"><div class="dot"></div><span class="name">Tocqueville</span><span class="work">— Democracy in America</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1806–1873</div>
+<div class="tl-track">
+<div class="tl-chip c19"><div class="dot"></div><span class="name">Mill</span><span class="work">— On Liberty, Utilitarianism</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1813–1855</div>
+<div class="tl-track">
+<div class="tl-chip c19"><div class="dot"></div><span class="name">Kierkegaard</span><span class="work">— Fear and Trembling, Either/Or</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1818–1883</div>
+<div class="tl-track">
+<div class="tl-chip c19"><div class="dot"></div><span class="name">Marx</span><span class="work">— Capital, Communist Manifesto</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1844–1900</div>
+<div class="tl-track">
+<div class="tl-chip c19"><div class="dot"></div><span class="name">Nietzsche</span><span class="work">— Genealogy of Morality, Beyond Good and Evil</span></div>
+</div></div>
+
+<div class="tl-era">20th century — analytic, continental, political</div>
+
+<div class="tl-row">
+<div class="tl-date">1848–1925</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Frege</span><span class="work">— Foundations of Arithmetic</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1859–1938</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Husserl</span><span class="work">— Cartesian Meditations, Ideas</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1872–1970</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Russell</span><span class="work">— Problems of Philosophy, Principia</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1889–1976</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Heidegger</span><span class="work">— Being and Time</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1889–1951</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Wittgenstein</span><span class="work">— Tractatus, Philosophical Investigations</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1899–1992</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Hayek</span><span class="work">— Road to Serfdom</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1905–1980</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Sartre</span><span class="work">— Being and Nothingness</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1906–1975</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Arendt</span><span class="work">— Human Condition, Origins of Totalitarianism</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1908–2000</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Quine</span><span class="work">— "Two Dogmas," Word and Object</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1909–1997</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Berlin</span><span class="work">— Two Concepts of Liberty</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1921–2002</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Rawls</span><span class="work">— A Theory of Justice</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1922–1996</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Kuhn</span><span class="work">— Structure of Scientific Revolutions</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1926–1984</div>
+<div class="tl-track">
+<div class="tl-chip c20"><div class="dot"></div><span class="name">Foucault</span><span class="work">— Discipline and Punish</span></div>
+</div></div>
+
+<div class="tl-note">
+Descartes (b. 1596) appears after Hobbes (b. 1588) and Pascal (b. 1623) in the political theory section because the timeline groups by tradition first, then chronology within each era. Locke straddles both political theory and epistemology — he appears under political theory as his primary legacy. The Federalist Papers are dated by publication rather than author lifespans.
+</div>
+</div>

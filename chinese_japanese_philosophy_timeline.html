@@ -1,0 +1,201 @@
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+.tl-wrap{font-family:var(--font-sans);padding:1rem 0;position:relative}
+.tl-header{font-size:16px;font-weight:500;color:var(--color-text-primary);margin-bottom:4px}
+.tl-sub{font-size:12px;color:var(--color-text-secondary);margin-bottom:20px}
+.tl-legend{display:flex;gap:16px;margin-bottom:20px;flex-wrap:wrap}
+.tl-legend-item{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--color-text-secondary)}
+.tl-legend-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.tl-row{display:flex;align-items:flex-start;gap:0;margin-bottom:2px;min-height:38px}
+.tl-era{width:100%;padding:6px 0 2px;font-size:11px;font-weight:500;color:var(--color-text-tertiary);text-transform:uppercase;letter-spacing:.5px;border-bottom:1px solid var(--color-border-tertiary);margin:12px 0 6px}
+.tl-date{width:90px;flex-shrink:0;font-size:11px;color:var(--color-text-tertiary);text-align:right;padding-right:12px;padding-top:7px;line-height:1.3}
+.tl-track{flex:1;display:flex;gap:6px;flex-wrap:wrap;padding:3px 0}
+.tl-chip{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:var(--border-radius-md);font-size:13px;line-height:1.4;cursor:default;transition:opacity .15s}
+.tl-chip:hover{opacity:.85}
+.tl-chip .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.tl-chip .name{font-weight:500}
+.tl-chip .work{font-weight:400;opacity:.75;font-size:12px}
+.cn .dot{background:#1D9E75}
+.jp .dot{background:#534AB7}
+.cn{background:#E1F5EE;color:#085041}
+.jp{background:#EEEDFE;color:#3C3489}
+@media(prefers-color-scheme:dark){
+.cn{background:#085041;color:#9FE1CB}
+.jp{background:#3C3489;color:#CECBF6}
+}
+.tl-note{font-size:11px;color:var(--color-text-tertiary);margin-top:16px;line-height:1.5}
+</style>
+<div class="tl-wrap">
+<div class="tl-header">East Asian philosophy timeline</div>
+<div class="tl-sub">Chinese and Japanese canons, roughly 551 BCE to 1945 CE</div>
+<div class="tl-legend">
+<div class="tl-legend-item"><div class="tl-legend-dot" style="background:#1D9E75"></div>Chinese canon</div>
+<div class="tl-legend-item"><div class="tl-legend-dot" style="background:#534AB7"></div>Japanese canon</div>
+</div>
+
+<div class="tl-era">Spring &amp; Autumn / Warring States (c. 551–221 BCE)</div>
+
+<div class="tl-row">
+<div class="tl-date">551–479 BCE</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Confucius</span><span class="work">— Analects</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 470–391 BCE</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Mozi</span><span class="work">— Mozi</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 6th–4th c. BCE</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Laozi</span><span class="work">— Tao Te Ching</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">372–289 BCE</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Mencius</span><span class="work">— Mencius</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 369–286 BCE</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Zhuangzi</span><span class="work">— Zhuangzi</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 310–235 BCE</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Xunzi</span><span class="work">— Xunzi</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 280–233 BCE</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Han Feizi</span><span class="work">— Han Feizi</span></div>
+</div></div>
+
+<div class="tl-era">Han Dynasty (206 BCE–220 CE)</div>
+
+<div class="tl-row">
+<div class="tl-date">179–104 BCE</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Dong Zhongshu</span><span class="work">— Luxuriant Dew</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 145–86 BCE</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Sima Qian</span><span class="work">— Records of the Grand Historian</span></div>
+</div></div>
+
+<div class="tl-era">Tang Dynasty / Nara–Heian Japan (7th–9th c.)</div>
+
+<div class="tl-row">
+<div class="tl-date">638–713</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Huineng</span><span class="work">— Platform Sutra</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">643–712</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Fazang</span><span class="work">— Golden Lion / Five Teachings</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">774–835</div>
+<div class="tl-track">
+<div class="tl-chip jp"><div class="dot"></div><span class="name">Kūkai</span><span class="work">— Major Works (Shingon)</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">c. 978</div>
+<div class="tl-track">
+<div class="tl-chip jp"><div class="dot"></div><span class="name">Murasaki Shikibu</span><span class="work">— The Tale of Genji</span></div>
+</div></div>
+
+<div class="tl-era">Song Dynasty / Kamakura Japan (12th–13th c.)</div>
+
+<div class="tl-row">
+<div class="tl-date">1130–1200</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Zhu Xi</span><span class="work">— Four Books commentaries</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1173–1263</div>
+<div class="tl-track">
+<div class="tl-chip jp"><div class="dot"></div><span class="name">Shinran</span><span class="work">— Tannishō / Kyōgyōshinshō</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1200–1253</div>
+<div class="tl-track">
+<div class="tl-chip jp"><div class="dot"></div><span class="name">Dōgen</span><span class="work">— Shōbōgenzō</span></div>
+</div></div>
+
+<div class="tl-era">Ming Dynasty / Muromachi–Tokugawa Japan (15th–18th c.)</div>
+
+<div class="tl-row">
+<div class="tl-date">1472–1529</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Wang Yangming</span><span class="work">— Instructions for Practical Living</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1584</div>
+<div class="tl-track">
+<div class="tl-chip jp"><div class="dot"></div><span class="name">Miyamoto Musashi</span><span class="work">— The Book of Five Rings</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1610–1695</div>
+<div class="tl-track">
+<div class="tl-chip cn"><div class="dot"></div><span class="name">Huang Zongxi</span><span class="work">— Waiting for the Dawn</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1659–1719</div>
+<div class="tl-track">
+<div class="tl-chip jp"><div class="dot"></div><span class="name">Hakuin Ekaku</span><span class="work">— Wild Ivy / kōan writings</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1666–1728</div>
+<div class="tl-track">
+<div class="tl-chip jp"><div class="dot"></div><span class="name">Ogyū Sorai</span><span class="work">— Political Writings</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1659–1719</div>
+<div class="tl-track">
+<div class="tl-chip jp"><div class="dot"></div><span class="name">Yamamoto Tsunetomo</span><span class="work">— Hagakure (dictated 1709–16)</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1730–1801</div>
+<div class="tl-track">
+<div class="tl-chip jp"><div class="dot"></div><span class="name">Motoori Norinaga</span><span class="work">— Kojiki commentaries</span></div>
+</div></div>
+
+<div class="tl-era">Modern period (19th–20th c.)</div>
+
+<div class="tl-row">
+<div class="tl-date">1835–1901</div>
+<div class="tl-track">
+<div class="tl-chip jp"><div class="dot"></div><span class="name">Fukuzawa Yukichi</span><span class="work">— An Encouragement of Learning</span></div>
+</div></div>
+
+<div class="tl-row">
+<div class="tl-date">1870–1945</div>
+<div class="tl-track">
+<div class="tl-chip jp"><div class="dot"></div><span class="name">Nishida Kitarō</span><span class="work">— An Inquiry into the Good</span></div>
+</div></div>
+
+<div class="tl-note">
+Dates for Laozi are contested — the Tao Te Ching may be a composite text compiled over centuries. Musashi's birth year (1584) is used as an anchor; The Book of Five Rings was written in 1645. Murasaki Shikibu's dates are approximate (c. 973–1014 or 978–1031); Genji was written c. 1000–1012.
+</div>
+</div>
