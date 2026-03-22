@@ -1,6 +1,6 @@
 # Philosophies
 
-Curated reading lists for the primary texts of Eastern and Western philosophical traditions, with links to the best free online editions and recommendations for paid translations.
+Curated reading lists for the primary texts of Eastern and Western philosophical traditions, with links to the best free online editions and recommendations for paid translations. Created with AI assistance. 
 
 ## Contents
 
