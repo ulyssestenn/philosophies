@@ -1,6 +1,7 @@
 # Philosophies
+*Created with Claude Opus 4.6 and ChatGPT GPT-5.3*
 
-Curated reading lists for the primary texts of Eastern and Western philosophical traditions, with links to the best free online editions and recommendations for paid translations. Created with AI assistance. 
+Curated reading lists for the primary texts of Eastern and Western philosophical traditions, with links to the best free online editions and recommendations for paid translations. 
 
 ## Contents
 
