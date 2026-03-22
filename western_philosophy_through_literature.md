@@ -1,4 +1,5 @@
 # Western Philosophy Through Literature — A Separate Canon
+*Created with Claude Opus 4.6*
 
 ---
 
