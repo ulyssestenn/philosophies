@@ -1,4 +1,5 @@
 # East Asian Philosophy Canon — Primary Texts & Links
+*Created with Claude Opus 4.6 and ChatGPT GPT-5.3*
 
 ---
 
