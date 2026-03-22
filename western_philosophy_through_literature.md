@@ -55,7 +55,7 @@ Greek tragedy is philosophy before philosophy had its own genre. These works gra
 
 **Montaigne** — *Essays*
 - [Gutenberg (Cotton trans.)](https://www.gutenberg.org/ebooks/3600)
-- **Philosophical stakes:** Montaigne invents the essay as a philosophical form — thinking-in-process rather than concluded argument. His skepticism is not Pyrrhonian system-building but a *practice* of self-examination. "Que sais-je?" is a way of living, not just a proposition. He's doing philosophy as a way of being in exactly the way you identified in your question.
+- **Philosophical stakes:** Montaigne invents the essay as a philosophical form — thinking-in-process rather than concluded argument. His skepticism is not Pyrrhonian system-building but a *practice* of self-examination. "Que sais-je?" is a way of living, not just a proposition. He's doing philosophy as a way of being, not just a way of thinking.
 
 **Shakespeare** — *Hamlet*, *King Lear*, *The Tempest*, *Measure for Measure*
 - [MIT Shakespeare (complete works)](http://shakespeare.mit.edu/)
