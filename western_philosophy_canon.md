@@ -1,4 +1,5 @@
 # Western Philosophy & Political Theory Canon — Primary Texts & Links
+*Created with Claude Opus 4.6*
 
 ---
 
